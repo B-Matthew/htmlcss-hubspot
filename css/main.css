@@ -1,0 +1,286 @@
+/* REGOLE GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 60%;
+  margin: 0 20%;
+}
+
+/* REGOLE HEADER */
+.header-top {
+  height: 70px;
+  /* debug */
+  width: 100%;
+  background-color: red;
+}
+
+.header-bot {
+  height: 70px;
+  /* debug */
+  width: 100%;
+  background-color: blue;
+}
+
+/* REGOLE MAIN */
+
+/* Jumbo section */
+.jumbo {
+  height: 700px;
+  /* debug */
+  background-color: purple;
+}
+
+/* Background color delle sezioni  */
+
+.color-section {
+  background-color: lightblue;
+}
+/* rubik section */
+.rubik-box {
+  height: 350px;
+  /* debug */
+
+}
+/* section prima row */
+.row-uno::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-uno .leftbox{
+  height: 270px;
+  width: 30%;
+  float: left;
+  /* debug */
+  background-color: red;
+}
+
+.row-uno .rightbox {
+  height: 270px;
+  width: 70%;
+  float: left;
+  /* debug */
+  background-color: yellow;
+}
+
+/* section seconda row */
+
+.row-due {
+  padding: 40px 0;
+}
+
+.row-due::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-due .leftbox {
+  height: 650px;
+  width: 30%;
+  float: left;
+  /* debug */
+  background-color: blue;
+}
+
+.row-due .centerbox {
+  height: 650px;
+  width: 30%;
+  float: left;
+  margin: 0 5%;
+  /* debug */
+  background-color: purple;
+}
+
+
+.row-due .rightbox {
+  height: 650px;
+  width: 30%;
+  float: left;
+  /* debug */
+  background-color: pink;
+}
+
+/* section terza row */
+
+.row-tre {
+  background-color: green;
+}
+
+.row-tre::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-tre .text-section {
+  height: 200px;
+  /* debug */
+  background-color: green;
+}
+
+.row-tre .table-section {
+  height: 500px;
+}
+
+.row-tre .first {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.row-tre .second {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.row-tre .third {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.row-tre .forth {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-bottom: 1px solid white;
+}
+
+
+
+.row-tre .fifth {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-right: 1px solid white;
+}
+
+
+.row-tre .sixth {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-right: 1px solid white;
+}
+
+
+.row-tre .seventh {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+  border-right: 1px solid white;
+}
+
+
+.row-tre .eight {
+  float: left;
+  height: 200px;
+  width: 25%;
+  /* debug */
+  background-color: green;
+}
+
+/* section quarta row */
+.row-quattro::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-quattro{
+  /* debug */
+  background-color: lightgrey;
+  height: 700px;
+}
+
+.row-quattro .section-top {
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-top .left {
+  width: 30%;
+  float: left;
+  /* debug */
+  height: 225px;
+  background-color: blue;
+}
+
+
+.section-top .right {
+  width: 70%;
+  float: left;
+  /* debug */
+  height: 225px;
+  background-color: red;
+}
+
+
+.section-bot .left {
+    width: 30%;
+    float: left;
+    /* debug */
+    height: 350px;
+    background-color: green;
+}
+
+.section-bot .right {
+    width: 70%;
+    float: left;
+    /* debug */
+    height: 350px;
+    background-color: purple;
+}
+/* REGOLE FOOTER */
+
+footer {
+  height: 700px;
+  background-color: blue;
+}
+
+.row-cinque::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row-cinque .footer-block {
+  width: 25%;
+  float: left;
+  /* debug */
+  height: 450px;
+  background-color: red;
+}
