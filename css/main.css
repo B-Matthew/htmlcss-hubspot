@@ -120,7 +120,7 @@ header .row::after {
   transition: 0.3s
 }
 
-#gethub:hover,#jumbo-button:hover {
+#gethub:hover,.orange-button:hover {
   opacity: 0.5;
 }
 
@@ -135,7 +135,7 @@ header .row::after {
   float: left;
 }
 
-ul li {
+.ul-line li {
   display: inline-block;
 }
 
@@ -187,7 +187,7 @@ top: 70px;
   border: 3px solid #33475B;
 }
 
-#jumbo-button {
+.orange-button {
   color: white;
   background-color: #FF7A59;
   border-radius: 5px;
@@ -210,7 +210,7 @@ top: 70px;
 }
 
 .rubik-box p{
-  margin: 30px 0;
+  margin: 40px 0;
 }
 .rubik-box img {
   margin-top: 40px;
@@ -225,23 +225,66 @@ top: 70px;
   clear: both;
 }
 
-.row-uno .leftbox{
-  height: 270px;
-  width: 30%;
+.row-uno .leftbox-row-uno{
+  height: 350px;
+  width: 35%;
   float: left;
-  /* debug */
-  background-color: red;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 1px 1px 5px 1px lightgrey;
 }
 
-.row-uno .rightbox {
-  height: 270px;
-  width: 70%;
+.row-uno .rightbox-row-uno {
+  height: 350px;
+  width: 65%;
   float: left;
-  /* debug */
-  background-color: yellow;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px lightgrey;
+}
+
+
+.image-inside-box {
+  height: 150px;
+  width: auto;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+
+.button-row-uno {
+  text-align: center;
+}
+
+.rightbox-row-uno h2 {
+  padding: 40px 0;
+}
+
+.rightbox-row-uno h3 {
+  padding: 30px 0;
+  display: inline-block;
+}
+
+.rightbox-row-uno hr {
+  display: inline-block;
+  margin-left: 20px;
+  width: 65%;
+  vertical-align: middle;
+  border: 1px solid grey;
+}
+
+.rightbox-row-uno .ul-line li {
+  margin-right: 30px;
+}
+
+.ul-line i {
+  color: #FF7A59;
+  margin-right: 15px;
 }
 
 /* section seconda row */
+
 
 .row-due {
   padding: 40px 0;
@@ -253,32 +296,65 @@ top: 70px;
   clear: both;
 }
 
-.row-due .leftbox {
-  height: 650px;
+.row-due .leftbox-row-due {
   width: 30%;
   float: left;
-  /* debug */
-  background-color: blue;
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px lightgrey;
 }
 
-.row-due .centerbox {
-  height: 650px;
+
+
+.row-due .centerbox-row-due {
   width: 30%;
   float: left;
   margin: 0 5%;
-  /* debug */
-  background-color: purple;
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px lightgrey;
 }
 
 
-.row-due .rightbox {
-  height: 650px;
+
+.row-due .right-row-due {
   width: 30%;
   float: left;
-  /* debug */
-  background-color: pink;
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px lightgrey;
+
 }
 
+.images-row-2 {
+  height: 150px;
+  width: auto;
+  margin-top: 40px;
+}
+
+.centratura {
+  text-align: center;
+  margin: 0 35px;
+}
+
+.ul-unline {
+  margin: 0 35px;
+  list-style-type: none;
+}
+
+.ul-unline i {
+  color: #FF7A59;
+  padding-right: 15px;
+}
+
+.row-due h2 {
+  margin: 20px 0;
+}
+
+.row-due h3 {
+  margin: 20px 0;
+}
+
+.row-due p {
+  margin-bottom: 40px;
+}
 /* section terza row */
 
 .row-tre {
@@ -417,19 +493,19 @@ top: 70px;
 
 
 .section-bot .left {
-    width: 30%;
-    float: left;
-    /* debug */
-    height: 350px;
-    background-color: green;
+  width: 30%;
+  float: left;
+  /* debug */
+  height: 350px;
+  background-color: green;
 }
 
 .section-bot .right {
-    width: 70%;
-    float: left;
-    /* debug */
-    height: 350px;
-    background-color: purple;
+  width: 70%;
+  float: left;
+  /* debug */
+  height: 350px;
+  background-color: purple;
 }
 /* REGOLE FOOTER */
 
