@@ -18,6 +18,16 @@ body {
   margin: 0 20%;
 }
 
+img {
+  max-width: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* REGOLE HEADER */
 header {
   position: fixed;
@@ -37,11 +47,7 @@ header {
   background-color: white;
 }
 
-header .row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 
 /* FLOAT LEFT HEADER TOP */
@@ -49,8 +55,6 @@ header .row::after {
   padding-top: 20px;
   float: left;
 }
-
-
 
 #contact {
   padding-left: 20px;
@@ -184,7 +188,6 @@ header i {
   top: 70px;
 }
 
-
 .banner-bot {
   position: absolute;
   bottom: 0;
@@ -225,13 +228,8 @@ header i {
   height: 180px;
 }
 
-
 /* section prima row */
-.row-uno::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .row-uno {
   box-shadow: 1px 1px 5px 1px lightgrey;
@@ -247,7 +245,6 @@ header i {
   border-bottom-left-radius: 5px;
 }
 
-
 .row-uno .rightbox-row-uno {
   height: 350px;
   width: 65%;
@@ -256,8 +253,6 @@ header i {
   border-bottom-right-radius: 5px;
   background-color: white;
 }
-
-
 
 .image-inside-box {
   height: 150px;
@@ -298,16 +293,11 @@ header i {
 
 /* section seconda row */
 
-
 .row-due {
   padding: 40px 0;
 }
 
-.row-due::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .row-due .leftbox-row-due {
   width: 30%;
@@ -317,8 +307,6 @@ header i {
   border-radius: 5px;
 }
 
-
-
 .row-due .centerbox-row-due {
   width: 30%;
   float: left;
@@ -327,8 +315,6 @@ header i {
   box-shadow: 1px 1px 5px 1px lightgrey;
   border-radius: 5px;
 }
-
-
 
 .row-due .right-row-due {
   width: 30%;
@@ -377,14 +363,10 @@ header i {
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
-.row-tre::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .table-section {
-  padding-bottom: 500px;
+  padding-bottom: 150px;
 }
 
 .table-section h2 {
@@ -408,6 +390,10 @@ header i {
 
 .image-row-tre {
   padding-top: 20px;
+}
+
+.min-height {
+  min-height: 52px;
 }
 
 .row-tre .border-bot-right {
@@ -443,11 +429,7 @@ header i {
 }
 
 /* section quarta row */
-.row-quattro::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .row-quattro{
   /* debug */
@@ -458,7 +440,6 @@ header i {
 .left-row-quattro h2 {
   font-size: 50px;
 }
-
 
 .left-row-quattro p{
   margin: 20px 0;
@@ -481,13 +462,11 @@ header i {
   text-align: center;
 }
 
-
 .section-top .right-row-quattro {
   width: 70%;
   float: left;
   height: 225px;
   padding-left: 100px;
-  vertical-align: middle;
 }
 
 
@@ -533,9 +512,7 @@ header i {
   padding-top: 40px;
 }
 
-.section-bot p {
-  margin: 20px 0;
-}
+
 
 .section-bot h2 {
   font-size: 34px;
@@ -557,17 +534,14 @@ header i {
 
 /* REGOLE FOOTER */
 
-
 footer {
-  height: 700px;
+  height: 600px;
   background-color:#32495b;
+  margin-top: 30px;
 }
 
-.row-cinque::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
 
 .row-cinque .footer-block {
   width: 25%;
@@ -607,6 +581,7 @@ footer a:hover {
   font-size: 15px;
 }
 
+
 .ul-footer2 li {
   padding-right: 30px;
   display: inline-block;
@@ -643,9 +618,10 @@ footer a:hover {
 .footer-float-sx p {
   color: lightgrey;
   text-decoration: none;
-  font-weight: 100;
+  font-weight: 100px;
 }
 
+/* SEZIONE CHAT BOT */
 .chat-fixed {
   position: fixed;
   bottom: 20px;
@@ -697,4 +673,15 @@ footer a:hover {
 
 #risposta-utente {
   background-color: lightyellow;
+}
+
+#chat-bot {
+  height: 40px;
+  width: 90%;
+  margin: 20px 5%;
+  border: none;
+  background-color: lightgrey;
+  padding-left: 10px;
+  font-size: 15px;
+  border-radius: 5px;
 }
